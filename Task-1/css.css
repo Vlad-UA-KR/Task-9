@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #ffffff;
+}
+.wrapper{
+    background-color: #ffffff;
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+    width: 1400px;
+    height: 940px;
+    margin: 100px auto;
+}
+.container{
+    width: 1160px;
+    height: 700px;
+    padding: 120px 120px;
+}
+
+/**------------------header-------------------**/
+
+.header_h1{
+    font-size: 42px;
+    font-family: "PlayfairDisplay";
+    color: rgb(23, 23, 23);
+    line-height: 70px;
+    height: 70px;
+    font-weight: 400;
+}
+
+/**------------------main-------------------**/
+
+.container__article{
+    height: 560px;
+}
+.frist-letter{
+    font-size: 110px;
+    font-family: "PlayfairDisplay";
+    color: rgb(23, 23, 23);
+    float: left;
+    display: inline-block;
+    margin: 10px 35px 10px 0;
+    height: 79px;
+    width: 62px;
+    line-height: 79px;
+}
+.article_parahraph{
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgba(23, 23, 23, 0.702);
+    line-height: 1.889;
+    width: 1050px;
+    font-weight: 400;
+}
+.paragraph-1-2{
+    margin: 0 0 50px 0; 
+}
+.article_last-sentence{
+    font-size: 24px;
+    font-family: "Lato";
+    color: rgba(23, 23, 23, 0.702);
+    line-height: 1.889;
+    font-style: italic;
+    height: 100px;
+    line-height: 100px
+}
+.article_last-sentence_span{
+    font-size: 60px;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+/**------------------button-------------------**/
+
+.container__button{
+    border: 2px solid rgb(234, 162, 88);
+    width: 260px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.button_span{
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: bold;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    color: rgb(234, 162, 88);
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+.container__button:hover{
+    background-color: rgb(234, 162, 88);
+    border: 2px solid rgb(234, 162, 88);
+}
+.container__button:hover .button_span{
+    background-color: rgb(234, 162, 88);
+    border: 2px solid rgb(234, 162, 88);
+    color: white;
+}
