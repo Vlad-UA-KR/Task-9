@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "ProximaNova" ;
+    src: url(./web/fonts/Proxima\ Nova\ Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Futura PT" ;
+    src: url(./web/fonts/futura-pt-heavy.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+/**---------- FONTS ---------------**/
+
 *,
 *::before,
 *::after{
@@ -6,3 +21,138 @@
     border: 0;
     box-sizing: border-box;
 }
+.body{
+    background-color: #464F54;
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    width: 1200px;
+    margin: 150px auto;
+}
+.page{
+    width: 1060px;
+    height: 750px;
+    background-color: #FDFDFD;
+}
+.page__input{
+    width: 875px;
+    height: 185px;
+    background-color: #181818;
+    float: right;
+    position: relative;
+    top: -100px;
+    left: 70px;
+    color: white;
+    font-size: 48px;
+}
+.page__control-bar{
+    width: 815px;
+    height: 75px;
+    background-color: #FBC02D;
+    float: right;
+    position: relative;
+    top: -100px;
+    left: 70px;
+    display: flex;
+    align-items: center;
+}
+.control-bar__container{
+    width: 610px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+}
+.input__container{
+    margin: 10px 0px 0px 60px;
+    width: 875px;
+    height: 185px;
+}
+.page__input_text{
+    background-color: #181818;
+    color: #fefefe;
+    font-size: 48px;
+    border: none;
+    outline: none;
+    font-family: 'Playfair Display';
+    line-height: 19%;
+}
+::placeholder{
+    color: #fefefe;
+}
+.page__input_label{
+    font-size: 15px;
+    color: #767676;
+    font-family: "ProximaNova";
+    letter-spacing: 0.5em;
+    line-height: 72%;
+}
+.input__container_hr{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.102;
+    height: 3px;
+    margin-top: 10px;
+    width: 815px;
+}
+.page__vertikal-line{
+    width: 68px;
+    height: 100%;
+    border-right: 2px solid rgb(232, 236, 237);
+}
+.page__main{
+    float: right;
+    display: inline-block;
+    width: 990px;
+    margin-top: -550px;
+    padding-left: 55px;
+}
+.page__main_container{
+    width: 800px;
+}
+.page__main_paragraph-1{
+    font-size: 20px;
+    font-family: "ProximaNova";
+    color: rgb(180, 180, 180);
+    line-height: 1.2;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.page__main_paragraph-2{
+    color: rgb(42, 42, 42);
+    font-size: 78px;
+    line-height: 0.943;
+    font-family: "Futura PT";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 30px;
+}
+.page__main_paragraph-3{
+    font-size: 30px;
+    font-family: "Georgia";
+    color: rgb(143, 143, 143);
+    font-style: italic;
+    line-height: 2.081;
+    padding-top: 12px;
+}
+.page__main_paragraph-4{
+    font-size: 26px;
+    font-family: "Georgia";
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    text-align: justify;
+    padding-top: 35px;
+}
+.page__main_paragraph-5{
+    font-size: 26px;
+    font-family: "Georgia";
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+  
+  
